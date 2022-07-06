@@ -55,18 +55,16 @@ disclaimer:
   message: ''
   hidden: false
 email_contacts:
-  questions: rajan_silwal@yahoo.com
-  suggestions: rajan_silwal@yahoo.com
-  functional: rajan_silwal@yahoo.com
+  questions: planningcbs@gmail.com
+  suggestions: planningcbs@gmail.com
+  functional: planningcbs@gmail.com
 environment: staging
 footer_language_toggle: none
 footer_menu:
-  - path: 'mailto:my-email-address@example.com'
+  - path: 'mailto:planningcbs@gmail.com'
     translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
-    translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
-    translation_key: general.facebook
+  - path: 'https://cbs.gov.np'
+    translation_key: Central Bureau of Statistics Website
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
 frontpage_cards:
