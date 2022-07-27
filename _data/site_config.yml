@@ -1,29 +1,24 @@
-﻿accessible_charts: true
-accessible_tabs: true
-analytics:
+﻿analytics:
   ua: ''
   gtag: ''
   gtm: ''
   ga_prod: ''
-bootstrap_5: true
 breadcrumbs:
   goal: []
   indicator: []
   post: []
-chartjs_3: true
-contrast_type: single
 cookie_consent_form:
   enabled: false
 country:
   name: Nepal
   adjective: Nepali
 create_goals:
-  layout: goal-by-target-vertical
   previous_next_links: false
   goals: []
+  layout: goal-by-target-vertical
 create_indicators:
-  layout: indicator
   previous_next_links: false
+  layout: indicator
 create_pages:
   - filename: ''
     folder: /
@@ -60,19 +55,16 @@ disclaimer:
   message: ''
   hidden: false
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: planningcbs@gmail.com
+  suggestions: planningcbs@gmail.com
+  functional: planningcbs@gmail.com
 environment: staging
-favicons: favicon.io
 footer_language_toggle: none
 footer_menu:
-  - path: 'mailto:my-email-address@example.com'
+  - path: 'mailto:planningcbs@gmail.com'
     translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
-    translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
-    translation_key: general.facebook
+  - path: 'https://cbs.gov.np'
+    translation_key: Central Bureau of Statistics Website
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
 frontpage_cards:
@@ -82,29 +74,11 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Lorem ipsum
-    content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
-    include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
-    rule_color: ''
-  - title: Nam vestibulum
-    content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
-    include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
-    rule_color: ''
 frontpage_goals_grid:
   title: Our data for Sustainable Development Goal indicators
   description: >-
     Click on each goal for our Sustainable Development Goal global indicator
     data.
-frontpage_heading: ''
-frontpage_instructions: ''
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
@@ -119,8 +93,6 @@ graph_color_set: accessible
 graph_color_list: []
 graph_color_number: 0
 graph_title_from_series: true
-header:
-  include: header-default.html
 header_language_toggle: dropdown
 hide_empty_metadata: true
 hide_single_series: false
@@ -150,11 +122,11 @@ indicator_tabs:
   tab_4: ''
 languages:
   - en
-  - ne
 languages_public: []
 logos: []
 map_layers: []
 map_options:
+  disaggregation_controls: false
   minZoom: 5
   maxZoom: 10
   tileURL: ''
@@ -198,14 +170,10 @@ menu:
   - path: /faq
     translation_key: menu.faq
     dropdown: []
-  - path: /news
-    translation_key: menu.updates
-    dropdown: []
 metadata_edit_url: 'https://github.com/open-sdg-nepal/data/tree/develop/meta'
 metadata_tabs: []
 news:
   category_links: false
-non_global_metadata: indicator.national_metadata
 progress_status:
   status_heading: ''
   status_types: []
@@ -231,7 +199,6 @@ repository_url_data: 'https://github.com/open-sdg-nepal/data'
 repository_url_site: 'https://github.com/open-sdg-nepal/site'
 search_index_boost: []
 search_index_extra_fields: []
-series_toggle: true
 site_config_form:
   enabled: true
   dropdowns: []
