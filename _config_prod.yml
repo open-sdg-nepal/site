@@ -18,4 +18,4 @@ remote_data_prefix: "https://sdgs-nepal.github.io/prod-data"
 
 analytics:
   # For production, you likely want to enter a Google Analytics code below.
-  ga_prod: ''
+  gtag: 'G-Q6VM0DMFKZ'
